@@ -1,0 +1,13 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "boxcutter/ubuntu1510"
+  config.vm.synced_folder "rubynd", "/home/vagrant/rubynd"
+  config.vm.provision "shell", path: "scripts/update_upgrade.sh"
+  config.vm.provision "shell", path: "scripts/install_ruby.sh"
+  config.vm.provision "shell", path: "scripts/install_git.sh"
+  config.vm.provision "shell", path: "scripts/welcome.sh"
+end
