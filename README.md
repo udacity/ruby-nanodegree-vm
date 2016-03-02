@@ -8,6 +8,7 @@ for the Beginning Ruby Nanodegree Program.
 
 1. Install [Vagrant](https://www.vagrantup.com/downloads.html)
 2. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+2. Install [Git](https://git-scm.com/downloads) and when you get to "Adjusting your PATH environment" select "Use Git and optional Unix tools from the Windows Command Prompt"
 3. Copy the `vagrant` folder onto your computer (wherever you plan on keeping your Ruby projects)
 4. Open up the command line, and navigate to the `vagrant` folder using `cd`
 5. Run the command `vagrant up`
