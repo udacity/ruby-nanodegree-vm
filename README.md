@@ -17,6 +17,7 @@ for the Beginning Ruby Nanodegree Program.
 
 * `vagrant up`: starts up the VM
 * `vagrant ssh`: starts the VM command line prompt
+* `exit`: exits the VM command line prompt
 * `vagrant halt`: shuts down the VM
 
 ## Shared folder
@@ -25,3 +26,9 @@ Once you start up the VM, you will be in the VM's home folder. There will
 be one directory in the home folder: `rubynd`
 
 The `rubynd` folder is a shared folder that exists in the VM, as well as in the `vagrant` folder on your computer. Any folders and files you add to `rubynd` can be accessed in the VM and on your computer.
+
+Access the shared folder from within your VM command line terminal with:
+
+```
+cd rubynd
+```
